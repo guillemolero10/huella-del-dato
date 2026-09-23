@@ -21,3 +21,7 @@ data/processed/ia/sonnet_v2.jsonl
 
 # Borrador de la candidatura (se entrega en el formulario, no en el repositorio)
 textos-formulario.md
+
+# Revisión manual descartada (solo local)
+pipeline/revision.py
+data/processed/revision/
