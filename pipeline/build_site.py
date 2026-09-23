@@ -24,6 +24,7 @@ GEO = ROOT / "data" / "geo"
 ASSETS = ROOT / "assets"
 WEB = ROOT / "web"
 BASE_URL = "https://huella-del-dato.vercel.app"
+REPO_URL = "https://github.com/guillemolero10/huella-del-dato"
 
 SECTORES = {
     "clima_medio_ambiente": "Clima y medio ambiente", "movilidad_transporte": "Movilidad y transporte",
@@ -399,6 +400,7 @@ def pagina(titulo, descripcion, cuerpo, raiz=".", banda="", scripts="", ruta="")
     <p>Un proyecto de Guillermo Molero Jiménez, estudiante del Grado en Ciencia de Datos e Inteligencia
     Artificial de la Universidad Miguel Hernández de Elche.</p>
     <p>Datos del proyecto publicados bajo <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>.
+    Código abierto en <a href="{REPO_URL}">GitHub</a> (MIT).
     Fuentes: OpenAlex, Wikipedia y GitHub. Mapa: Natural Earth (dominio público). Tipografía: Bricolage
     Grotesque (SIL Open Font License). Última actualización: septiembre de 2026.</p>
   </div>
@@ -950,8 +952,10 @@ las decisiones que hay detrás de cada cifra, incluidas sus limitaciones.</p></s
 <section class="seccion texto">
   {cabecera_seccion("06", "Reproducibilidad", "Todo abierto")}
   <p>El proceso completo (rastreo, limpieza, clasificación, análisis y esta web) son scripts de Python sin servicios
-  de pago. La web es estática: no llama a ningún servicio ni usa inteligencia artificial al visitarla. Los datos
-  resultantes están <a href="datos.html">publicados en abierto</a>.</p>
+  de pago, <a href="{REPO_URL}">publicados en GitHub</a> con licencia MIT junto con los datos necesarios para
+  rehacer el análisis. La web es estática: no llama a ningún servicio ni usa inteligencia artificial al visitarla.
+  Los datos resultantes están <a href="datos.html">publicados en abierto</a>.</p>
+  <p><a class="boton secundario claro" href="{REPO_URL}">Ver el código en GitHub ↗</a></p>
 </section>""", banda=banda_m, ruta="metodologia.html"))
 
     # --- Datos abiertos ---
@@ -998,6 +1002,9 @@ las decisiones que hay detrás de cada cifra, incluidas sus limitaciones.</p></s
   {cabecera_seccion("", "Sellos", "Sellos para los portales")}
   <p>Cada portal tiene un sello SVG en <code>sellos/&lt;portal&gt;.svg</code>, con el código para insertarlo en su
   ficha.</p>
+  {cabecera_seccion("", "Código", "Código fuente")}
+  <p>Todo el proceso, con las instrucciones de la IA y los datos para reproducirlo, está en
+  <a href="{REPO_URL}">{REPO_URL.replace("https://", "")}</a> (licencia MIT).</p>
   {cabecera_seccion("", "Cita", "Cómo citar")}
   <p class="cita-bloque">Molero Jiménez, G. (2026). <i>La Huella del Dato: quién reutiliza los datos públicos
   españoles</i>. Universidad Miguel Hernández de Elche. {BASE_URL}</p>
