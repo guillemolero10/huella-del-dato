@@ -1,0 +1,2236 @@
+{
+ "portales": {
+  "aemet": {
+   "nombre": "AEMET OpenData",
+   "ambito": "nacional",
+   "territorio": "España",
+   "url": "https://opendata.aemet.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 939,
+     "verificables": 939,
+     "clasificados": 266,
+     "muestreado": true,
+     "clases": {
+      "uso": 204,
+      "mencion": 56,
+      "ruido": 5,
+      "estudio": 1
+     },
+     "uso_estimado": 720,
+     "uso_min": 669,
+     "uso_max": 764
+    },
+    "openalex": {
+     "encontrados": 117,
+     "verificables": 58,
+     "clasificados": 58,
+     "muestreado": true,
+     "clases": {
+      "uso": 54,
+      "mencion": 4
+     },
+     "uso_estimado": 109,
+     "uso_min": 98,
+     "uso_max": 114
+    },
+    "wikipedia": {
+     "encontrados": 135,
+     "verificables": 135,
+     "clasificados": 135,
+     "muestreado": false,
+     "clases": {
+      "uso": 100,
+      "mencion": 35
+     },
+     "uso_estimado": 100,
+     "uso_min": 89,
+     "uso_max": 109
+    }
+   },
+   "encontrados": 1191,
+   "uso_estimado": 929,
+   "uso_min": 856,
+   "uso_max": 987
+  },
+  "andalucia": {
+   "nombre": "Junta de Andalucía",
+   "ambito": "autonomico",
+   "territorio": "Andalucía",
+   "url": "https://www.juntadeandalucia.es/datosabiertos/portal.html",
+   "fuentes": {
+    "github": {
+     "encontrados": 121,
+     "verificables": 121,
+     "clasificados": 121,
+     "muestreado": false,
+     "clases": {
+      "uso": 31,
+      "mencion": 78,
+      "ruido": 10,
+      "estudio": 2
+     },
+     "uso_estimado": 31,
+     "uso_min": 23,
+     "uso_max": 41
+    },
+    "openalex": {
+     "encontrados": 3,
+     "verificables": 3,
+     "clasificados": 3,
+     "muestreado": false,
+     "clases": {
+      "uso": 1,
+      "estudio": 2
+     },
+     "uso_estimado": 1,
+     "uso_min": 0,
+     "uso_max": 2
+    },
+    "wikipedia": {
+     "encontrados": 1,
+     "verificables": 1,
+     "clasificados": 1,
+     "muestreado": false,
+     "clases": {
+      "uso": 1
+     },
+     "uso_estimado": 1,
+     "uso_min": 0,
+     "uso_max": 1
+    }
+   },
+   "encontrados": 125,
+   "uso_estimado": 33,
+   "uso_min": 23,
+   "uso_max": 44
+  },
+  "aragon": {
+   "nombre": "Aragón Open Data",
+   "ambito": "autonomico",
+   "territorio": "Aragón",
+   "url": "https://opendata.aragon.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 258,
+     "verificables": 258,
+     "clasificados": 250,
+     "muestreado": true,
+     "clases": {
+      "mencion": 131,
+      "uso": 81,
+      "estudio": 27,
+      "ruido": 11
+     },
+     "uso_estimado": 84,
+     "uso_min": 69,
+     "uso_max": 99
+    },
+    "openalex": {
+     "encontrados": 36,
+     "verificables": 14,
+     "clasificados": 14,
+     "muestreado": true,
+     "clases": {
+      "uso": 8,
+      "estudio": 2,
+      "mencion": 4
+     },
+     "uso_estimado": 21,
+     "uso_min": 12,
+     "uso_max": 28
+    },
+    "wikipedia": {
+     "encontrados": 3,
+     "verificables": 3,
+     "clasificados": 3,
+     "muestreado": false,
+     "clases": {
+      "mencion": 1,
+      "uso": 2
+     },
+     "uso_estimado": 2,
+     "uso_min": 1,
+     "uso_max": 3
+    }
+   },
+   "encontrados": 297,
+   "uso_estimado": 107,
+   "uso_min": 82,
+   "uso_max": 130
+  },
+  "asturias": {
+   "nombre": "Principado de Asturias",
+   "ambito": "autonomico",
+   "territorio": "Asturias",
+   "url": "https://descargas.asturias.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 6,
+     "verificables": 6,
+     "clasificados": 6,
+     "muestreado": false,
+     "clases": {
+      "uso": 6
+     },
+     "uso_estimado": 6,
+     "uso_min": 4,
+     "uso_max": 6
+    },
+    "openalex": {
+     "encontrados": 2,
+     "verificables": 0,
+     "clasificados": 0,
+     "muestreado": true,
+     "clases": {},
+     "uso_estimado": 0,
+     "uso_min": 0,
+     "uso_max": 0
+    }
+   },
+   "encontrados": 8,
+   "uso_estimado": 6,
+   "uso_min": 4,
+   "uso_max": 6
+  },
+  "baleares": {
+   "nombre": "Govern de les Illes Balears",
+   "ambito": "autonomico",
+   "territorio": "Illes Balears",
+   "url": "https://catalegdades.caib.cat",
+   "fuentes": {
+    "github": {
+     "encontrados": 43,
+     "verificables": 43,
+     "clasificados": 43,
+     "muestreado": false,
+     "clases": {
+      "uso": 32,
+      "mencion": 3,
+      "ruido": 7,
+      "estudio": 1
+     },
+     "uso_estimado": 32,
+     "uso_min": 26,
+     "uso_max": 37
+    },
+    "openalex": {
+     "encontrados": 3,
+     "verificables": 1,
+     "clasificados": 1,
+     "muestreado": true,
+     "clases": {
+      "uso": 1
+     },
+     "uso_estimado": 3,
+     "uso_min": 1,
+     "uso_max": 3
+    }
+   },
+   "encontrados": 46,
+   "uso_estimado": 35,
+   "uso_min": 27,
+   "uso_max": 40
+  },
+  "barcelona": {
+   "nombre": "Ajuntament de Barcelona",
+   "ambito": "local",
+   "territorio": "Barcelona",
+   "url": "https://opendata-ajuntament.barcelona.cat",
+   "fuentes": {
+    "github": {
+     "encontrados": 462,
+     "verificables": 462,
+     "clasificados": 250,
+     "muestreado": true,
+     "clases": {
+      "mencion": 65,
+      "uso": 166,
+      "estudio": 6,
+      "ruido": 13
+     },
+     "uso_estimado": 307,
+     "uso_min": 279,
+     "uso_max": 332
+    },
+    "openalex": {
+     "encontrados": 145,
+     "verificables": 93,
+     "clasificados": 93,
+     "muestreado": true,
+     "clases": {
+      "uso": 79,
+      "estudio": 3,
+      "mencion": 11
+     },
+     "uso_estimado": 123,
+     "uso_min": 111,
+     "uso_max": 132
+    },
+    "wikipedia": {
+     "encontrados": 12,
+     "verificables": 12,
+     "clasificados": 12,
+     "muestreado": false,
+     "clases": {
+      "uso": 10,
+      "mencion": 2
+     },
+     "uso_estimado": 10,
+     "uso_min": 7,
+     "uso_max": 11
+    }
+   },
+   "encontrados": 619,
+   "uso_estimado": 440,
+   "uso_min": 397,
+   "uso_max": 475
+  },
+  "bilbao": {
+   "nombre": "Ayuntamiento de Bilbao",
+   "ambito": "local",
+   "territorio": "Bilbao",
+   "url": "https://www.bilbao.eus/opendata",
+   "fuentes": {
+    "github": {
+     "encontrados": 20,
+     "verificables": 20,
+     "clasificados": 20,
+     "muestreado": false,
+     "clases": {
+      "uso": 3,
+      "mencion": 7,
+      "ruido": 10
+     },
+     "uso_estimado": 3,
+     "uso_min": 1,
+     "uso_max": 7
+    }
+   },
+   "encontrados": 20,
+   "uso_estimado": 3,
+   "uso_min": 1,
+   "uso_max": 7
+  },
+  "boe": {
+   "nombre": "Boletín Oficial del Estado (datos abiertos y BORME)",
+   "ambito": "nacional",
+   "territorio": "España",
+   "url": "https://www.boe.es/datosabiertos/",
+   "fuentes": {
+    "github": {
+     "encontrados": 236,
+     "verificables": 236,
+     "clasificados": 236,
+     "muestreado": false,
+     "clases": {
+      "mencion": 19,
+      "uso": 205,
+      "estudio": 1,
+      "ruido": 11
+     },
+     "uso_estimado": 205,
+     "uso_min": 193,
+     "uso_max": 214
+    },
+    "wikipedia": {
+     "encontrados": 4,
+     "verificables": 4,
+     "clasificados": 4,
+     "muestreado": false,
+     "clases": {
+      "uso": 4
+     },
+     "uso_estimado": 4,
+     "uso_min": 2,
+     "uso_max": 4
+    }
+   },
+   "encontrados": 240,
+   "uso_estimado": 209,
+   "uso_min": 195,
+   "uso_max": 218
+  },
+  "caceres": {
+   "nombre": "Ayuntamiento de Cáceres",
+   "ambito": "local",
+   "territorio": "Cáceres",
+   "url": "https://opendata.caceres.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 166,
+     "verificables": 166,
+     "clasificados": 166,
+     "muestreado": false,
+     "clases": {
+      "mencion": 121,
+      "uso": 35,
+      "ruido": 7,
+      "estudio": 3
+     },
+     "uso_estimado": 35,
+     "uso_min": 26,
+     "uso_max": 46
+    },
+    "openalex": {
+     "encontrados": 4,
+     "verificables": 1,
+     "clasificados": 1,
+     "muestreado": true,
+     "clases": {
+      "uso": 1
+     },
+     "uso_estimado": 4,
+     "uso_min": 1,
+     "uso_max": 4
+    }
+   },
+   "encontrados": 170,
+   "uso_estimado": 39,
+   "uso_min": 27,
+   "uso_max": 50
+  },
+  "canarias": {
+   "nombre": "Gobierno de Canarias",
+   "ambito": "autonomico",
+   "territorio": "Canarias",
+   "url": "https://datos.canarias.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 57,
+     "verificables": 57,
+     "clasificados": 57,
+     "muestreado": false,
+     "clases": {
+      "uso": 42,
+      "mencion": 11,
+      "estudio": 2,
+      "ruido": 2
+     },
+     "uso_estimado": 42,
+     "uso_min": 35,
+     "uso_max": 48
+    },
+    "openalex": {
+     "encontrados": 16,
+     "verificables": 7,
+     "clasificados": 7,
+     "muestreado": true,
+     "clases": {
+      "uso": 6,
+      "mencion": 1
+     },
+     "uso_estimado": 14,
+     "uso_min": 8,
+     "uso_max": 16
+    },
+    "wikipedia": {
+     "encontrados": 3,
+     "verificables": 3,
+     "clasificados": 3,
+     "muestreado": false,
+     "clases": {
+      "uso": 3
+     },
+     "uso_estimado": 3,
+     "uso_min": 1,
+     "uso_max": 3
+    }
+   },
+   "encontrados": 76,
+   "uso_estimado": 59,
+   "uso_min": 44,
+   "uso_max": 67
+  },
+  "cantabria": {
+   "nombre": "Gobierno de Cantabria (ICANE)",
+   "ambito": "autonomico",
+   "territorio": "Cantabria",
+   "url": "https://www.icane.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 148,
+     "verificables": 148,
+     "clasificados": 148,
+     "muestreado": false,
+     "clases": {
+      "uso": 26,
+      "mencion": 116,
+      "estudio": 1,
+      "ruido": 5
+     },
+     "uso_estimado": 26,
+     "uso_min": 18,
+     "uso_max": 36
+    },
+    "openalex": {
+     "encontrados": 71,
+     "verificables": 28,
+     "clasificados": 28,
+     "muestreado": true,
+     "clases": {
+      "uso": 25,
+      "estudio": 1,
+      "mencion": 2
+     },
+     "uso_estimado": 63,
+     "uso_min": 52,
+     "uso_max": 68
+    },
+    "wikipedia": {
+     "encontrados": 35,
+     "verificables": 35,
+     "clasificados": 35,
+     "muestreado": false,
+     "clases": {
+      "uso": 32,
+      "mencion": 3
+     },
+     "uso_estimado": 32,
+     "uso_min": 27,
+     "uso_max": 34
+    }
+   },
+   "encontrados": 254,
+   "uso_estimado": 121,
+   "uso_min": 97,
+   "uso_max": 138
+  },
+  "cataluna": {
+   "nombre": "Generalitat de Catalunya",
+   "ambito": "autonomico",
+   "territorio": "Cataluña",
+   "url": "https://analisi.transparenciacatalunya.cat",
+   "fuentes": {
+    "github": {
+     "encontrados": 412,
+     "verificables": 412,
+     "clasificados": 250,
+     "muestreado": true,
+     "clases": {
+      "uso": 191,
+      "mencion": 40,
+      "ruido": 11,
+      "estudio": 8
+     },
+     "uso_estimado": 315,
+     "uso_min": 292,
+     "uso_max": 335
+    },
+    "openalex": {
+     "encontrados": 100,
+     "verificables": 63,
+     "clasificados": 63,
+     "muestreado": true,
+     "clases": {
+      "uso": 53,
+      "mencion": 9,
+      "estudio": 1
+     },
+     "uso_estimado": 84,
+     "uso_min": 73,
+     "uso_max": 91
+    },
+    "wikipedia": {
+     "encontrados": 73,
+     "verificables": 73,
+     "clasificados": 73,
+     "muestreado": false,
+     "clases": {
+      "mencion": 6,
+      "uso": 66,
+      "estudio": 1
+     },
+     "uso_estimado": 66,
+     "uso_min": 59,
+     "uso_max": 70
+    }
+   },
+   "encontrados": 585,
+   "uso_estimado": 465,
+   "uso_min": 424,
+   "uso_max": 496
+  },
+  "catastro": {
+   "nombre": "Dirección General del Catastro",
+   "ambito": "nacional",
+   "territorio": "España",
+   "url": "https://www.sedecatastro.gob.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 393,
+     "verificables": 393,
+     "clasificados": 250,
+     "muestreado": true,
+     "clases": {
+      "ruido": 23,
+      "uso": 179,
+      "mencion": 41,
+      "estudio": 7
+     },
+     "uso_estimado": 281,
+     "uso_min": 258,
+     "uso_max": 302
+    },
+    "openalex": {
+     "encontrados": 193,
+     "verificables": 115,
+     "clasificados": 115,
+     "muestreado": true,
+     "clases": {
+      "uso": 105,
+      "estudio": 7,
+      "mencion": 3
+     },
+     "uso_estimado": 176,
+     "uso_min": 164,
+     "uso_max": 184
+    },
+    "wikipedia": {
+     "encontrados": 45,
+     "verificables": 45,
+     "clasificados": 45,
+     "muestreado": false,
+     "clases": {
+      "uso": 39,
+      "mencion": 4,
+      "estudio": 2
+     },
+     "uso_estimado": 39,
+     "uso_min": 33,
+     "uso_max": 42
+    }
+   },
+   "encontrados": 631,
+   "uso_estimado": 496,
+   "uso_min": 455,
+   "uso_max": 528
+  },
+  "clm": {
+   "nombre": "Castilla-La Mancha",
+   "ambito": "autonomico",
+   "territorio": "Castilla-La Mancha",
+   "url": "https://datosabiertos.castillalamancha.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 29,
+     "verificables": 29,
+     "clasificados": 29,
+     "muestreado": false,
+     "clases": {
+      "mencion": 14,
+      "uso": 11,
+      "estudio": 1,
+      "ruido": 3
+     },
+     "uso_estimado": 11,
+     "uso_min": 7,
+     "uso_max": 16
+    },
+    "openalex": {
+     "encontrados": 6,
+     "verificables": 1,
+     "clasificados": 1,
+     "muestreado": true,
+     "clases": {
+      "uso": 1
+     },
+     "uso_estimado": 6,
+     "uso_min": 1,
+     "uso_max": 6
+    },
+    "wikipedia": {
+     "encontrados": 4,
+     "verificables": 4,
+     "clasificados": 4,
+     "muestreado": false,
+     "clases": {
+      "uso": 4
+     },
+     "uso_estimado": 4,
+     "uso_min": 2,
+     "uso_max": 4
+    }
+   },
+   "encontrados": 39,
+   "uso_estimado": 21,
+   "uso_min": 10,
+   "uso_max": 26
+  },
+  "cmadrid": {
+   "nombre": "Comunidad de Madrid",
+   "ambito": "autonomico",
+   "territorio": "Comunidad de Madrid",
+   "url": "https://datos.comunidad.madrid",
+   "fuentes": {
+    "github": {
+     "encontrados": 130,
+     "verificables": 130,
+     "clasificados": 130,
+     "muestreado": false,
+     "clases": {
+      "mencion": 44,
+      "uso": 75,
+      "estudio": 3,
+      "ruido": 8
+     },
+     "uso_estimado": 75,
+     "uso_min": 64,
+     "uso_max": 86
+    },
+    "openalex": {
+     "encontrados": 45,
+     "verificables": 29,
+     "clasificados": 29,
+     "muestreado": true,
+     "clases": {
+      "uso": 27,
+      "mencion": 1,
+      "estudio": 1
+     },
+     "uso_estimado": 42,
+     "uso_min": 35,
+     "uso_max": 44
+    },
+    "wikipedia": {
+     "encontrados": 1,
+     "verificables": 1,
+     "clasificados": 1,
+     "muestreado": false,
+     "clases": {
+      "uso": 1
+     },
+     "uso_estimado": 1,
+     "uso_min": 0,
+     "uso_max": 1
+    }
+   },
+   "encontrados": 176,
+   "uso_estimado": 118,
+   "uso_min": 99,
+   "uso_max": 131
+  },
+  "cvalenciana": {
+   "nombre": "Generalitat Valenciana",
+   "ambito": "autonomico",
+   "territorio": "Comunitat Valenciana",
+   "url": "https://dadesobertes.gva.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 65,
+     "verificables": 65,
+     "clasificados": 65,
+     "muestreado": false,
+     "clases": {
+      "uso": 47,
+      "mencion": 13,
+      "ruido": 2,
+      "estudio": 3
+     },
+     "uso_estimado": 47,
+     "uso_min": 39,
+     "uso_max": 53
+    },
+    "openalex": {
+     "encontrados": 23,
+     "verificables": 9,
+     "clasificados": 9,
+     "muestreado": true,
+     "clases": {
+      "uso": 9
+     },
+     "uso_estimado": 23,
+     "uso_min": 16,
+     "uso_max": 23
+    },
+    "wikipedia": {
+     "encontrados": 1,
+     "verificables": 1,
+     "clasificados": 1,
+     "muestreado": false,
+     "clases": {
+      "uso": 1
+     },
+     "uso_estimado": 1,
+     "uso_min": 0,
+     "uso_max": 1
+    }
+   },
+   "encontrados": 89,
+   "uso_estimado": 71,
+   "uso_min": 55,
+   "uso_max": 77
+  },
+  "cyl": {
+   "nombre": "Junta de Castilla y León",
+   "ambito": "autonomico",
+   "territorio": "Castilla y León",
+   "url": "https://datosabiertos.jcyl.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 196,
+     "verificables": 196,
+     "clasificados": 196,
+     "muestreado": false,
+     "clases": {
+      "uso": 123,
+      "estudio": 15,
+      "mencion": 49,
+      "ruido": 9
+     },
+     "uso_estimado": 123,
+     "uso_min": 109,
+     "uso_max": 136
+    },
+    "openalex": {
+     "encontrados": 40,
+     "verificables": 18,
+     "clasificados": 18,
+     "muestreado": true,
+     "clases": {
+      "uso": 18
+     },
+     "uso_estimado": 40,
+     "uso_min": 33,
+     "uso_max": 40
+    },
+    "wikipedia": {
+     "encontrados": 23,
+     "verificables": 23,
+     "clasificados": 23,
+     "muestreado": false,
+     "clases": {
+      "mencion": 3,
+      "uso": 20
+     },
+     "uso_estimado": 20,
+     "uso_min": 16,
+     "uso_max": 22
+    }
+   },
+   "encontrados": 259,
+   "uso_estimado": 183,
+   "uso_min": 158,
+   "uso_max": 198
+  },
+  "datosgob": {
+   "nombre": "datos.gob.es (Catálogo Nacional)",
+   "ambito": "nacional",
+   "territorio": "España",
+   "url": "https://datos.gob.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 1292,
+     "verificables": 1292,
+     "clasificados": 287,
+     "muestreado": true,
+     "clases": {
+      "uso": 93,
+      "mencion": 143,
+      "estudio": 15,
+      "ruido": 36
+     },
+     "uso_estimado": 419,
+     "uso_min": 352,
+     "uso_max": 491
+    },
+    "openalex": {
+     "encontrados": 474,
+     "verificables": 281,
+     "clasificados": 265,
+     "muestreado": true,
+     "clases": {
+      "uso": 96,
+      "mencion": 109,
+      "estudio": 49,
+      "ruido": 11
+     },
+     "uso_estimado": 172,
+     "uso_min": 145,
+     "uso_max": 200
+    },
+    "wikipedia": {
+     "encontrados": 51,
+     "verificables": 51,
+     "clasificados": 51,
+     "muestreado": false,
+     "clases": {
+      "estudio": 5,
+      "mencion": 17,
+      "uso": 29
+     },
+     "uso_estimado": 29,
+     "uso_min": 22,
+     "uso_max": 35
+    }
+   },
+   "encontrados": 1817,
+   "uso_estimado": 620,
+   "uso_min": 519,
+   "uso_max": 726
+  },
+  "dgt": {
+   "nombre": "DGT (Punto de Acceso Nacional de tráfico)",
+   "ambito": "nacional",
+   "territorio": "España",
+   "url": "https://nap.dgt.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 136,
+     "verificables": 136,
+     "clasificados": 136,
+     "muestreado": false,
+     "clases": {
+      "ruido": 15,
+      "uso": 104,
+      "mencion": 14,
+      "estudio": 3
+     },
+     "uso_estimado": 104,
+     "uso_min": 93,
+     "uso_max": 113
+    },
+    "openalex": {
+     "encontrados": 13,
+     "verificables": 7,
+     "clasificados": 7,
+     "muestreado": true,
+     "clases": {
+      "uso": 7
+     },
+     "uso_estimado": 13,
+     "uso_min": 8,
+     "uso_max": 13
+    },
+    "wikipedia": {
+     "encontrados": 1,
+     "verificables": 1,
+     "clasificados": 1,
+     "muestreado": false,
+     "clases": {
+      "mencion": 1
+     },
+     "uso_estimado": 0,
+     "uso_min": 0,
+     "uso_max": 1
+    }
+   },
+   "encontrados": 150,
+   "uso_estimado": 117,
+   "uso_min": 101,
+   "uso_max": 127
+  },
+  "euskadi": {
+   "nombre": "Open Data Euskadi",
+   "ambito": "autonomico",
+   "territorio": "País Vasco",
+   "url": "https://opendata.euskadi.eus",
+   "fuentes": {
+    "github": {
+     "encontrados": 288,
+     "verificables": 288,
+     "clasificados": 272,
+     "muestreado": true,
+     "clases": {
+      "mencion": 131,
+      "uso": 119,
+      "ruido": 13,
+      "estudio": 9
+     },
+     "uso_estimado": 126,
+     "uso_min": 109,
+     "uso_max": 143
+    },
+    "openalex": {
+     "encontrados": 57,
+     "verificables": 31,
+     "clasificados": 31,
+     "muestreado": true,
+     "clases": {
+      "uso": 29,
+      "estudio": 1,
+      "mencion": 1
+     },
+     "uso_estimado": 53,
+     "uso_min": 45,
+     "uso_max": 56
+    },
+    "wikipedia": {
+     "encontrados": 13086,
+     "verificables": 13086,
+     "clasificados": 252,
+     "muestreado": true,
+     "clases": {
+      "uso": 124,
+      "mencion": 128
+     },
+     "uso_estimado": 6439,
+     "uso_min": 5639,
+     "uso_max": 7242
+    }
+   },
+   "encontrados": 13431,
+   "uso_estimado": 6618,
+   "uso_min": 5793,
+   "uso_max": 7441
+  },
+  "extremadura": {
+   "nombre": "Junta de Extremadura",
+   "ambito": "autonomico",
+   "territorio": "Extremadura",
+   "url": "https://gobiernoabierto.juntaex.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 6,
+     "verificables": 6,
+     "clasificados": 6,
+     "muestreado": false,
+     "clases": {
+      "ruido": 4,
+      "mencion": 2
+     },
+     "uso_estimado": 0,
+     "uso_min": 0,
+     "uso_max": 2
+    },
+    "openalex": {
+     "encontrados": 6,
+     "verificables": 4,
+     "clasificados": 4,
+     "muestreado": true,
+     "clases": {
+      "uso": 3,
+      "estudio": 1
+     },
+     "uso_estimado": 4,
+     "uso_min": 2,
+     "uso_max": 6
+    }
+   },
+   "encontrados": 12,
+   "uso_estimado": 4,
+   "uso_min": 2,
+   "uso_max": 8
+  },
+  "galicia": {
+   "nombre": "Xunta de Galicia",
+   "ambito": "autonomico",
+   "territorio": "Galicia",
+   "url": "https://abertos.xunta.gal",
+   "fuentes": {
+    "github": {
+     "encontrados": 43,
+     "verificables": 43,
+     "clasificados": 43,
+     "muestreado": false,
+     "clases": {
+      "uso": 28,
+      "ruido": 8,
+      "mencion": 4,
+      "estudio": 3
+     },
+     "uso_estimado": 28,
+     "uso_min": 22,
+     "uso_max": 33
+    },
+    "openalex": {
+     "encontrados": 14,
+     "verificables": 8,
+     "clasificados": 8,
+     "muestreado": true,
+     "clases": {
+      "estudio": 3,
+      "uso": 4,
+      "mencion": 1
+     },
+     "uso_estimado": 7,
+     "uso_min": 3,
+     "uso_max": 11
+    },
+    "wikipedia": {
+     "encontrados": 3,
+     "verificables": 3,
+     "clasificados": 3,
+     "muestreado": false,
+     "clases": {
+      "uso": 3
+     },
+     "uso_estimado": 3,
+     "uso_min": 1,
+     "uso_max": 3
+    }
+   },
+   "encontrados": 60,
+   "uso_estimado": 38,
+   "uso_min": 26,
+   "uso_max": 47
+  },
+  "gijon": {
+   "nombre": "Ayuntamiento de Gijón",
+   "ambito": "local",
+   "territorio": "Gijón",
+   "url": "https://datos.gijon.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 24,
+     "verificables": 24,
+     "clasificados": 24,
+     "muestreado": false,
+     "clases": {
+      "mencion": 12,
+      "uso": 8,
+      "estudio": 2,
+      "ruido": 2
+     },
+     "uso_estimado": 8,
+     "uso_min": 4,
+     "uso_max": 13
+    },
+    "openalex": {
+     "encontrados": 6,
+     "verificables": 3,
+     "clasificados": 3,
+     "muestreado": true,
+     "clases": {
+      "mencion": 1,
+      "estudio": 2
+     },
+     "uso_estimado": 0,
+     "uso_min": 0,
+     "uso_max": 3
+    }
+   },
+   "encontrados": 30,
+   "uso_estimado": 8,
+   "uso_min": 4,
+   "uso_max": 16
+  },
+  "ign": {
+   "nombre": "Instituto Geográfico Nacional / CNIG",
+   "ambito": "nacional",
+   "territorio": "España",
+   "url": "https://centrodedescargas.cnig.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 1103,
+     "verificables": 1103,
+     "clasificados": 251,
+     "muestreado": true,
+     "clases": {
+      "uso": 162,
+      "ruido": 37,
+      "mencion": 47,
+      "estudio": 5
+     },
+     "uso_estimado": 712,
+     "uso_min": 645,
+     "uso_max": 774
+    },
+    "openalex": {
+     "encontrados": 1869,
+     "verificables": 214,
+     "clasificados": 214,
+     "muestreado": true,
+     "clases": {
+      "uso": 168,
+      "mencion": 36,
+      "estudio": 9,
+      "ruido": 1
+     },
+     "uso_estimado": 1467,
+     "uso_min": 1355,
+     "uso_max": 1560
+    },
+    "wikipedia": {
+     "encontrados": 2123,
+     "verificables": 2123,
+     "clasificados": 373,
+     "muestreado": true,
+     "clases": {
+      "uso": 331,
+      "mencion": 34,
+      "ruido": 4,
+      "estudio": 4
+     },
+     "uso_estimado": 1884,
+     "uso_min": 1807,
+     "uso_max": 1944
+    }
+   },
+   "encontrados": 5095,
+   "uso_estimado": 4063,
+   "uso_min": 3807,
+   "uso_max": 4278
+  },
+  "ine": {
+   "nombre": "Instituto Nacional de Estadística",
+   "ambito": "nacional",
+   "territorio": "España",
+   "url": "https://www.ine.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 1827,
+     "verificables": 1827,
+     "clasificados": 464,
+     "muestreado": true,
+     "clases": {
+      "uso": 284,
+      "mencion": 112,
+      "ruido": 64,
+      "estudio": 4
+     },
+     "uso_estimado": 1118,
+     "uso_min": 1036,
+     "uso_max": 1197
+    },
+    "openalex": {
+     "encontrados": 14523,
+     "verificables": 196,
+     "clasificados": 196,
+     "muestreado": true,
+     "clases": {
+      "uso": 175,
+      "mencion": 17,
+      "ruido": 2,
+      "estudio": 2
+     },
+     "uso_estimado": 12967,
+     "uso_min": 12225,
+     "uso_max": 13490
+    },
+    "wikipedia": {
+     "encontrados": 25627,
+     "verificables": 25627,
+     "clasificados": 498,
+     "muestreado": true,
+     "clases": {
+      "uso": 482,
+      "mencion": 15,
+      "ruido": 1
+     },
+     "uso_estimado": 24804,
+     "uso_min": 24306,
+     "uso_max": 25118
+    }
+   },
+   "encontrados": 41977,
+   "uso_estimado": 38889,
+   "uso_min": 37567,
+   "uso_max": 39805
+  },
+  "larioja": {
+   "nombre": "Gobierno de La Rioja",
+   "ambito": "autonomico",
+   "territorio": "La Rioja",
+   "url": "https://web.larioja.org/dato-abierto",
+   "fuentes": {
+    "github": {
+     "encontrados": 9,
+     "verificables": 9,
+     "clasificados": 9,
+     "muestreado": false,
+     "clases": {
+      "uso": 3,
+      "mencion": 5,
+      "ruido": 1
+     },
+     "uso_estimado": 3,
+     "uso_min": 1,
+     "uso_max": 6
+    }
+   },
+   "encontrados": 9,
+   "uso_estimado": 3,
+   "uso_min": 1,
+   "uso_max": 6
+  },
+  "madrid": {
+   "nombre": "Ayuntamiento de Madrid",
+   "ambito": "local",
+   "territorio": "Madrid",
+   "url": "https://datos.madrid.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 639,
+     "verificables": 639,
+     "clasificados": 408,
+     "muestreado": true,
+     "clases": {
+      "mencion": 77,
+      "uso": 289,
+      "estudio": 16,
+      "ruido": 26
+     },
+     "uso_estimado": 453,
+     "uso_min": 423,
+     "uso_max": 479
+    },
+    "openalex": {
+     "encontrados": 250,
+     "verificables": 152,
+     "clasificados": 152,
+     "muestreado": true,
+     "clases": {
+      "uso": 128,
+      "mencion": 13,
+      "estudio": 8,
+      "ruido": 3
+     },
+     "uso_estimado": 211,
+     "uso_min": 194,
+     "uso_max": 223
+    },
+    "wikipedia": {
+     "encontrados": 128,
+     "verificables": 128,
+     "clasificados": 128,
+     "muestreado": false,
+     "clases": {
+      "mencion": 15,
+      "uso": 113
+     },
+     "uso_estimado": 113,
+     "uso_min": 104,
+     "uso_max": 119
+    }
+   },
+   "encontrados": 1017,
+   "uso_estimado": 777,
+   "uso_min": 721,
+   "uso_max": 821
+  },
+  "malaga": {
+   "nombre": "Ayuntamiento de Málaga",
+   "ambito": "local",
+   "territorio": "Málaga",
+   "url": "https://datosabiertos.malaga.eu",
+   "fuentes": {
+    "github": {
+     "encontrados": 107,
+     "verificables": 107,
+     "clasificados": 107,
+     "muestreado": false,
+     "clases": {
+      "mencion": 27,
+      "uso": 66,
+      "estudio": 12,
+      "ruido": 2
+     },
+     "uso_estimado": 66,
+     "uso_min": 56,
+     "uso_max": 75
+    },
+    "openalex": {
+     "encontrados": 19,
+     "verificables": 14,
+     "clasificados": 14,
+     "muestreado": true,
+     "clases": {
+      "uso": 12,
+      "mencion": 2
+     },
+     "uso_estimado": 16,
+     "uso_min": 11,
+     "uso_max": 18
+    },
+    "wikipedia": {
+     "encontrados": 14,
+     "verificables": 14,
+     "clasificados": 14,
+     "muestreado": false,
+     "clases": {
+      "uso": 14
+     },
+     "uso_estimado": 14,
+     "uso_min": 11,
+     "uso_max": 14
+    }
+   },
+   "encontrados": 140,
+   "uso_estimado": 96,
+   "uso_min": 78,
+   "uso_max": 107
+  },
+  "murcia": {
+   "nombre": "Región de Murcia",
+   "ambito": "autonomico",
+   "territorio": "Región de Murcia",
+   "url": "https://datosabiertos.regiondemurcia.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 21,
+     "verificables": 21,
+     "clasificados": 21,
+     "muestreado": false,
+     "clases": {
+      "estudio": 6,
+      "mencion": 5,
+      "uso": 9,
+      "ruido": 1
+     },
+     "uso_estimado": 9,
+     "uso_min": 5,
+     "uso_max": 13
+    },
+    "openalex": {
+     "encontrados": 8,
+     "verificables": 3,
+     "clasificados": 3,
+     "muestreado": true,
+     "clases": {
+      "uso": 2,
+      "mencion": 1
+     },
+     "uso_estimado": 5,
+     "uso_min": 2,
+     "uso_max": 8
+    }
+   },
+   "encontrados": 29,
+   "uso_estimado": 14,
+   "uso_min": 7,
+   "uso_max": 21
+  },
+  "navarra": {
+   "nombre": "Gobierno de Navarra",
+   "ambito": "autonomico",
+   "territorio": "Navarra",
+   "url": "https://datosabiertos.navarra.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 25,
+     "verificables": 25,
+     "clasificados": 25,
+     "muestreado": false,
+     "clases": {
+      "mencion": 6,
+      "uso": 12,
+      "ruido": 7
+     },
+     "uso_estimado": 12,
+     "uso_min": 8,
+     "uso_max": 17
+    },
+    "openalex": {
+     "encontrados": 2,
+     "verificables": 0,
+     "clasificados": 0,
+     "muestreado": true,
+     "clases": {},
+     "uso_estimado": 0,
+     "uso_min": 0,
+     "uso_max": 0
+    },
+    "wikipedia": {
+     "encontrados": 2,
+     "verificables": 2,
+     "clasificados": 2,
+     "muestreado": false,
+     "clases": {
+      "uso": 2
+     },
+     "uso_estimado": 2,
+     "uso_min": 1,
+     "uso_max": 2
+    }
+   },
+   "encontrados": 29,
+   "uso_estimado": 14,
+   "uso_min": 9,
+   "uso_max": 19
+  },
+  "placsp": {
+   "nombre": "Plataforma de Contratación del Sector Público",
+   "ambito": "nacional",
+   "territorio": "España",
+   "url": "https://contrataciondelestado.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 122,
+     "verificables": 122,
+     "clasificados": 122,
+     "muestreado": false,
+     "clases": {
+      "ruido": 20,
+      "uso": 91,
+      "mencion": 10,
+      "estudio": 1
+     },
+     "uso_estimado": 91,
+     "uso_min": 81,
+     "uso_max": 99
+    },
+    "openalex": {
+     "encontrados": 169,
+     "verificables": 100,
+     "clasificados": 100,
+     "muestreado": true,
+     "clases": {
+      "ruido": 1,
+      "uso": 54,
+      "mencion": 40,
+      "estudio": 5
+     },
+     "uso_estimado": 91,
+     "uso_min": 75,
+     "uso_max": 107
+    },
+    "wikipedia": {
+     "encontrados": 76,
+     "verificables": 76,
+     "clasificados": 76,
+     "muestreado": false,
+     "clases": {
+      "uso": 61,
+      "mencion": 12,
+      "estudio": 1,
+      "ruido": 2
+     },
+     "uso_estimado": 61,
+     "uso_min": 53,
+     "uso_max": 67
+    }
+   },
+   "encontrados": 367,
+   "uso_estimado": 243,
+   "uso_min": 209,
+   "uso_max": 273
+  },
+  "transparencia": {
+   "nombre": "Portal de la Transparencia",
+   "ambito": "nacional",
+   "territorio": "España",
+   "url": "https://transparencia.gob.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 99,
+     "verificables": 99,
+     "clasificados": 99,
+     "muestreado": false,
+     "clases": {
+      "uso": 20,
+      "mencion": 35,
+      "ruido": 36,
+      "estudio": 8
+     },
+     "uso_estimado": 20,
+     "uso_min": 13,
+     "uso_max": 29
+    },
+    "openalex": {
+     "encontrados": 274,
+     "verificables": 175,
+     "clasificados": 175,
+     "muestreado": true,
+     "clases": {
+      "estudio": 32,
+      "uso": 73,
+      "mencion": 70
+     },
+     "uso_estimado": 114,
+     "uso_min": 95,
+     "uso_max": 135
+    },
+    "wikipedia": {
+     "encontrados": 235,
+     "verificables": 235,
+     "clasificados": 235,
+     "muestreado": false,
+     "clases": {
+      "uso": 213,
+      "mencion": 17,
+      "ruido": 2,
+      "estudio": 3
+     },
+     "uso_estimado": 213,
+     "uso_min": 203,
+     "uso_max": 220
+    }
+   },
+   "encontrados": 608,
+   "uso_estimado": 347,
+   "uso_min": 311,
+   "uso_max": 384
+  },
+  "universidata": {
+   "nombre": "UniversiDATA (universidades públicas)",
+   "ambito": "nacional",
+   "territorio": "España",
+   "url": "https://www.universidata.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 14,
+     "verificables": 14,
+     "clasificados": 14,
+     "muestreado": false,
+     "clases": {
+      "mencion": 5,
+      "uso": 8,
+      "ruido": 1
+     },
+     "uso_estimado": 8,
+     "uso_min": 5,
+     "uso_max": 11
+    }
+   },
+   "encontrados": 14,
+   "uso_estimado": 8,
+   "uso_min": 5,
+   "uso_max": 11
+  },
+  "valencia": {
+   "nombre": "Ajuntament de València",
+   "ambito": "local",
+   "territorio": "València",
+   "url": "https://opendata.vlci.valencia.es",
+   "fuentes": {
+    "github": {
+     "encontrados": 197,
+     "verificables": 197,
+     "clasificados": 197,
+     "muestreado": false,
+     "clases": {
+      "uso": 167,
+      "estudio": 4,
+      "mencion": 16,
+      "ruido": 10
+     },
+     "uso_estimado": 167,
+     "uso_min": 156,
+     "uso_max": 176
+    },
+    "openalex": {
+     "encontrados": 21,
+     "verificables": 13,
+     "clasificados": 13,
+     "muestreado": true,
+     "clases": {
+      "uso": 12,
+      "mencion": 1
+     },
+     "uso_estimado": 19,
+     "uso_min": 14,
+     "uso_max": 21
+    },
+    "wikipedia": {
+     "encontrados": 3,
+     "verificables": 3,
+     "clasificados": 3,
+     "muestreado": false,
+     "clases": {
+      "uso": 3
+     },
+     "uso_estimado": 3,
+     "uso_min": 1,
+     "uso_max": 3
+    }
+   },
+   "encontrados": 221,
+   "uso_estimado": 189,
+   "uso_min": 171,
+   "uso_max": 200
+  },
+  "zaragoza": {
+   "nombre": "Ayuntamiento de Zaragoza",
+   "ambito": "local",
+   "territorio": "Zaragoza",
+   "url": "https://www.zaragoza.es/sede/portal/datos-abiertos/",
+   "fuentes": {
+    "github": {
+     "encontrados": 109,
+     "verificables": 109,
+     "clasificados": 109,
+     "muestreado": false,
+     "clases": {
+      "uso": 72,
+      "mencion": 23,
+      "estudio": 5,
+      "ruido": 9
+     },
+     "uso_estimado": 72,
+     "uso_min": 62,
+     "uso_max": 81
+    },
+    "openalex": {
+     "encontrados": 2,
+     "verificables": 1,
+     "clasificados": 1,
+     "muestreado": true,
+     "clases": {
+      "uso": 1
+     },
+     "uso_estimado": 2,
+     "uso_min": 0,
+     "uso_max": 2
+    }
+   },
+   "encontrados": 111,
+   "uso_estimado": 74,
+   "uso_min": 62,
+   "uso_max": 83
+  }
+ },
+ "global": {
+  "portales": 35,
+  "encontrados": 69942,
+  "clasificados": 9954,
+  "clases": {
+   "uso": 5814,
+   "mencion": 2103,
+   "estudio": 320,
+   "ruido": 462,
+   "cita": 1255
+  },
+  "sectores": {
+   "tecnologia_datos": 332,
+   "sector_publico_legal": 753,
+   "otros": 113,
+   "clima_medio_ambiente": 954,
+   "sociedad_demografia": 901,
+   "educacion_cultura": 528,
+   "economia_empresa": 456,
+   "urbanismo_territorio": 845,
+   "movilidad_transporte": 640,
+   "salud": 292
+  },
+  "actores": {
+   "investigacion": 1411,
+   "comunidad_open_source": 1423,
+   "estudiante_particular": 997,
+   "empresa": 183,
+   "administracion": 71,
+   "divulgacion": 1729
+  },
+  "uso_estimado_total": 55457,
+  "ranking": [
+   [
+    38889,
+    "ine"
+   ],
+   [
+    6618,
+    "euskadi"
+   ],
+   [
+    4063,
+    "ign"
+   ],
+   [
+    929,
+    "aemet"
+   ],
+   [
+    777,
+    "madrid"
+   ],
+   [
+    620,
+    "datosgob"
+   ],
+   [
+    496,
+    "catastro"
+   ],
+   [
+    465,
+    "cataluna"
+   ],
+   [
+    440,
+    "barcelona"
+   ],
+   [
+    347,
+    "transparencia"
+   ],
+   [
+    243,
+    "placsp"
+   ],
+   [
+    209,
+    "boe"
+   ],
+   [
+    189,
+    "valencia"
+   ],
+   [
+    183,
+    "cyl"
+   ],
+   [
+    121,
+    "cantabria"
+   ],
+   [
+    118,
+    "cmadrid"
+   ],
+   [
+    117,
+    "dgt"
+   ],
+   [
+    107,
+    "aragon"
+   ],
+   [
+    96,
+    "malaga"
+   ],
+   [
+    74,
+    "zaragoza"
+   ],
+   [
+    71,
+    "cvalenciana"
+   ],
+   [
+    59,
+    "canarias"
+   ],
+   [
+    39,
+    "caceres"
+   ],
+   [
+    38,
+    "galicia"
+   ],
+   [
+    35,
+    "baleares"
+   ],
+   [
+    33,
+    "andalucia"
+   ],
+   [
+    21,
+    "clm"
+   ],
+   [
+    14,
+    "navarra"
+   ],
+   [
+    14,
+    "murcia"
+   ],
+   [
+    8,
+    "universidata"
+   ],
+   [
+    8,
+    "gijon"
+   ],
+   [
+    6,
+    "asturias"
+   ],
+   [
+    4,
+    "extremadura"
+   ],
+   [
+    3,
+    "larioja"
+   ],
+   [
+    3,
+    "bilbao"
+   ]
+  ],
+  "sin_uso_detectado": [],
+  "ejemplos_github": [
+   {
+    "portal": "aemet",
+    "nombre": "home-assistant/core",
+    "url": "https://github.com/home-assistant/core",
+    "estrellas": 90702,
+    "descripcion": ":house_with_garden: Open source home automation that puts local control and privacy first.",
+    "motivo": "Integración Home Assistant consulta datos de AEMET",
+    "sector": "clima_medio_ambiente"
+   },
+   {
+    "portal": "aemet",
+    "nombre": "breezy-weather/breezy-weather",
+    "url": "https://github.com/breezy-weather/breezy-weather",
+    "estrellas": 11422,
+    "descripcion": "A feature-rich weather app with good visualizations and more than 50 sources.",
+    "motivo": "App de tiempo integra AEMET como fuente de datos",
+    "sector": "clima_medio_ambiente"
+   },
+   {
+    "portal": "dgt",
+    "nombre": "BigBodyCobain/Shadowbroker",
+    "url": "https://github.com/BigBodyCobain/Shadowbroker",
+    "estrellas": 11187,
+    "descripcion": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
+    "motivo": "Pipeline de cámaras CCTV que consulta infocar.dgt.es",
+    "sector": "movilidad_transporte"
+   },
+   {
+    "portal": "madrid",
+    "nombre": "BigBodyCobain/Shadowbroker",
+    "url": "https://github.com/BigBodyCobain/Shadowbroker",
+    "estrellas": 11187,
+    "descripcion": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
+    "motivo": "Pipeline OSINT reutiliza datos abiertos con atribución al portal",
+    "sector": "movilidad_transporte"
+   },
+   {
+    "portal": "aemet",
+    "nombre": "home-assistant/home-assistant.io",
+    "url": "https://github.com/home-assistant/home-assistant.io",
+    "estrellas": 9828,
+    "descripcion": ":blue_book: Home Assistant User documentation",
+    "motivo": "Documentación describe integración que usa datos de AEMET",
+    "sector": "clima_medio_ambiente"
+   },
+   {
+    "portal": "ign",
+    "nombre": "geoserver/geoserver",
+    "url": "https://github.com/geoserver/geoserver",
+    "estrellas": 4460,
+    "descripcion": "Official GeoServer repository",
+    "motivo": "GeoServer documenta y usa rejillas de transformación geodésica del IGN",
+    "sector": "tecnologia_datos"
+   },
+   {
+    "portal": "aemet",
+    "nombre": "PranshulGG/WeatherMaster",
+    "url": "https://github.com/PranshulGG/WeatherMaster",
+    "estrellas": 3099,
+    "descripcion": "A Weather app for android with multiple sources 🌦🌞☔",
+    "motivo": "App meteorológica integra la API AEMET como fuente de datos",
+    "sector": "clima_medio_ambiente"
+   },
+   {
+    "portal": "boe",
+    "nombre": "microsoft/PowerPlatformConnectors",
+    "url": "https://github.com/microsoft/PowerPlatformConnectors",
+    "estrellas": 1286,
+    "descripcion": "This is a repository for Microsoft Power Automate, Power Apps, and Azure Logic Apps connectors",
+    "motivo": "Conector Power Platform diseñado para acceder a datos del BORME",
+    "sector": "economia_empresa"
+   },
+   {
+    "portal": "caceres",
+    "nombre": "public-transport/transitous",
+    "url": "https://github.com/public-transport/transitous",
+    "estrellas": 718,
+    "descripcion": "Free and open public transport routing.",
+    "motivo": "Integra feed GTFS de autobuses de Cáceres en enrutador de transporte",
+    "sector": "movilidad_transporte"
+   },
+   {
+    "portal": "ine",
+    "nombre": "sdelquin/aprendepython",
+    "url": "https://github.com/sdelquin/aprendepython",
+    "estrellas": 677,
+    "descripcion": "Curso de introducción al lenguaje de programación Python",
+    "motivo": "Ejemplo de curso descarga CSV real del INE con requests",
+    "sector": "educacion_cultura"
+   },
+   {
+    "portal": "aemet",
+    "nombre": "earthobservations/wetterdienst",
+    "url": "https://github.com/earthobservations/wetterdienst",
+    "estrellas": 455,
+    "descripcion": "Open weather data for humans.",
+    "motivo": "Librería integra proveedor AEMET consultando su API",
+    "sector": "clima_medio_ambiente"
+   },
+   {
+    "portal": "barcelona",
+    "nombre": "open-city-ai/haidian",
+    "url": "https://github.com/open-city-ai/haidian",
+    "estrellas": 413,
+    "descripcion": null,
+    "motivo": "Cita dataset de refugios climáticos como fuente de un proyecto",
+    "sector": "clima_medio_ambiente"
+   },
+   {
+    "portal": "boe",
+    "nombre": "worldwidelaw/legal-sources",
+    "url": "https://github.com/worldwidelaw/legal-sources",
+    "estrellas": 379,
+    "descripcion": "Open-source collection scripts for open legal data from 110+ countries maintained by the Legal Data Hunter agent. Request your government's data source or contribute a script.",
+    "motivo": "Scripts que llaman a la API del BOE para extraer datos legales",
+    "sector": "sector_publico_legal"
+   },
+   {
+    "portal": "asturias",
+    "nombre": "worldwidelaw/legal-sources",
+    "url": "https://github.com/worldwidelaw/legal-sources",
+    "estrellas": 379,
+    "descripcion": "Open-source collection scripts for open legal data from 110+ countries maintained by the Legal Data Hunter agent. Request your government's data source or contribute a script.",
+    "motivo": "Descarga índices JSON de legislación (BOPA) desde el portal de datos",
+    "sector": "sector_publico_legal"
+   },
+   {
+    "portal": "canarias",
+    "nombre": "worldwidelaw/legal-sources",
+    "url": "https://github.com/worldwidelaw/legal-sources",
+    "estrellas": 379,
+    "descripcion": "Open-source collection scripts for open legal data from 110+ countries maintained by the Legal Data Hunter agent. Request your government's data source or contribute a script.",
+    "motivo": "Script recolecta datos legales bajo licencia del portal canario",
+    "sector": "sector_publico_legal"
+   },
+   {
+    "portal": "cyl",
+    "nombre": "worldwidelaw/legal-sources",
+    "url": "https://github.com/worldwidelaw/legal-sources",
+    "estrellas": 379,
+    "descripcion": "Open-source collection scripts for open legal data from 110+ countries maintained by the Legal Data Hunter agent. Request your government's data source or contribute a script.",
+    "motivo": "Scraper legal configurado con licencia y datos abiertos de JCYL",
+    "sector": "sector_publico_legal"
+   },
+   {
+    "portal": "cataluna",
+    "nombre": "worldwidelaw/legal-sources",
+    "url": "https://github.com/worldwidelaw/legal-sources",
+    "estrellas": 379,
+    "descripcion": "Open-source collection scripts for open legal data from 110+ countries maintained by the Legal Data Hunter agent. Request your government's data source or contribute a script.",
+    "motivo": "Script recolecta metadatos legales vía API Socrata del DOGC",
+    "sector": "sector_publico_legal"
+   },
+   {
+    "portal": "euskadi",
+    "nombre": "worldwidelaw/legal-sources",
+    "url": "https://github.com/worldwidelaw/legal-sources",
+    "estrellas": 379,
+    "descripcion": "Open-source collection scripts for open legal data from 110+ countries maintained by the Legal Data Hunter agent. Request your government's data source or contribute a script.",
+    "motivo": "Script recolecta legislación vía SPARQL y API del portal",
+    "sector": "sector_publico_legal"
+   },
+   {
+    "portal": "euskadi",
+    "nombre": "MobilityData/mobility-database-catalogs",
+    "url": "https://github.com/MobilityData/mobility-database-catalogs",
+    "estrellas": 348,
+    "descripcion": "The Catalogs of Sources of the Mobility Database.",
+    "motivo": "Catálogo GTFS enlaza descargas directas de la API del portal",
+    "sector": "movilidad_transporte"
+   },
+   {
+    "portal": "valencia",
+    "nombre": "MobilityData/mobility-database-catalogs",
+    "url": "https://github.com/MobilityData/mobility-database-catalogs",
+    "estrellas": 348,
+    "descripcion": "The Catalogs of Sources of the Mobility Database.",
+    "motivo": "Catálogo enlaza descarga directa del GTFS de EMT",
+    "sector": "movilidad_transporte"
+   },
+   {
+    "portal": "malaga",
+    "nombre": "MobilityData/mobility-database-catalogs",
+    "url": "https://github.com/MobilityData/mobility-database-catalogs",
+    "estrellas": 348,
+    "descripcion": "The Catalogs of Sources of the Mobility Database.",
+    "motivo": "Catálogo GTFS enlaza descarga directa de datos EMT Málaga",
+    "sector": "movilidad_transporte"
+   },
+   {
+    "portal": "ine",
+    "nombre": "javiereguiluz/Cupon",
+    "url": "https://github.com/javiereguiluz/Cupon",
+    "estrellas": 310,
+    "descripcion": "Aplicación de prueba para aprender a programar con Symfony2",
+    "motivo": "Fixtures generan nombres usando datos de popularidad del INE",
+    "sector": "sociedad_demografia"
+   },
+   {
+    "portal": "ine",
+    "nombre": "smashew/NameDatabases",
+    "url": "https://github.com/smashew/NameDatabases",
+    "estrellas": 281,
+    "descripcion": "Text databases of last names from various countries",
+    "motivo": "Base de apellidos construida con datos del INE",
+    "sector": "sociedad_demografia"
+   },
+   {
+    "portal": "ine",
+    "nombre": "finos/common-domain-model",
+    "url": "https://github.com/finos/common-domain-model",
+    "estrellas": 279,
+    "descripcion": "The CDM is a model for financial products, trades in those products, and the lifecycle events of those trades. It is an open source standard that aligns data, systems and processes and is available as code in multiple languages for easy implementation across technologies.",
+    "motivo": "Codelist financiero cita al INE como fuente de inflación",
+    "sector": "economia_empresa"
+   },
+   {
+    "portal": "catastro",
+    "nombre": "osmlab/editor-layer-index",
+    "url": "https://github.com/osmlab/editor-layer-index",
+    "estrellas": 267,
+    "descripcion": "A unified layer index for OSM editors.",
+    "motivo": "Índice de capas imagery configura WMS del catastro para editores",
+    "sector": "tecnologia_datos"
+   },
+   {
+    "portal": "cyl",
+    "nombre": "osmlab/editor-layer-index",
+    "url": "https://github.com/osmlab/editor-layer-index",
+    "estrellas": 267,
+    "descripcion": "A unified layer index for OSM editors.",
+    "motivo": "Capa de imagería WMS de JCYL usada como fuente para editores OSM",
+    "sector": "urbanismo_territorio"
+   },
+   {
+    "portal": "ign",
+    "nombre": "Drakonis96/nodus",
+    "url": "https://github.com/Drakonis96/nodus",
+    "estrellas": 257,
+    "descripcion": "Open-source research workspace for connecting sources, evidence, notes and ideas. Built for academic research with Zotero integration. Available on MacOS, Windows and Linux.",
+    "motivo": "Geometría de límites derivada de datos originales del CNIG",
+    "sector": "urbanismo_territorio"
+   },
+   {
+    "portal": "aemet",
+    "nombre": "jentic/jentic-public-apis",
+    "url": "https://github.com/jentic/jentic-public-apis",
+    "estrellas": 257,
+    "descripcion": "Directory of OpenAPI specifications for thousands of public APIs. Every API is machine-readable and scored for AI agents. CC0.",
+    "motivo": "Recolecta especificación OpenAPI/metadatos del portal AEMET",
+    "sector": "tecnologia_datos"
+   },
+   {
+    "portal": "datosgob",
+    "nombre": "silk-framework/silk",
+    "url": "https://github.com/silk-framework/silk",
+    "estrellas": 251,
+    "descripcion": "Silk Linked Data Integration Framework",
+    "motivo": "Framework de datos enlazados reutiliza namespace ontológico de datos.gob.es",
+    "sector": "tecnologia_datos"
+   },
+   {
+    "portal": "boe",
+    "nombre": "stella/stella",
+    "url": "https://github.com/stella/stella",
+    "estrellas": 250,
+    "descripcion": "Open-source legal workspace",
+    "motivo": "Cliente TypeScript llama a API de legislación consolidada y sumario",
+    "sector": "sector_publico_legal"
+   },
+   {
+    "portal": "datosgob",
+    "nombre": "BquantFinance/licitaciones-espana",
+    "url": "https://github.com/BquantFinance/licitaciones-espana",
+    "estrellas": 218,
+    "descripcion": null,
+    "motivo": "Proyecto de licitaciones cita licencia del portal como fuente de datos",
+    "sector": "economia_empresa"
+   },
+   {
+    "portal": "placsp",
+    "nombre": "BquantFinance/licitaciones-espana",
+    "url": "https://github.com/BquantFinance/licitaciones-espana",
+    "estrellas": 218,
+    "descripcion": null,
+    "motivo": "Parser de licitaciones del portal, README lo cita como fuente",
+    "sector": "economia_empresa"
+   },
+   {
+    "portal": "asturias",
+    "nombre": "BquantFinance/licitaciones-espana",
+    "url": "https://github.com/BquantFinance/licitaciones-espana",
+    "estrellas": 218,
+    "descripcion": null,
+    "motivo": "Script descarga datos de contratación pública desde la API del portal",
+    "sector": "sector_publico_legal"
+   },
+   {
+    "portal": "cvalenciana",
+    "nombre": "BquantFinance/licitaciones-espana",
+    "url": "https://github.com/BquantFinance/licitaciones-espana",
+    "estrellas": 218,
+    "descripcion": null,
+    "motivo": "Script Python llama a la API CKAN del portal",
+    "sector": "economia_empresa"
+   },
+   {
+    "portal": "madrid",
+    "nombre": "BquantFinance/licitaciones-espana",
+    "url": "https://github.com/BquantFinance/licitaciones-espana",
+    "estrellas": 218,
+    "descripcion": null,
+    "motivo": "Unifica 67 CSV de contratación pública del Ayuntamiento en dataset",
+    "sector": "sector_publico_legal"
+   },
+   {
+    "portal": "bilbao",
+    "nombre": "BquantFinance/licitaciones-espana",
+    "url": "https://github.com/BquantFinance/licitaciones-espana",
+    "estrellas": 218,
+    "descripcion": null,
+    "motivo": "Script Python descarga datos de contratos adjudicados del portal",
+    "sector": "sector_publico_legal"
+   },
+   {
+    "portal": "ign",
+    "nombre": "wladich/nakarte",
+    "url": "https://github.com/wladich/nakarte",
+    "estrellas": 206,
+    "descripcion": "Source code of site http://nakarte.me",
+    "motivo": "Mapa carga capa WMTS de mapa ráster del IGN",
+    "sector": "urbanismo_territorio"
+   },
+   {
+    "portal": "malaga",
+    "nombre": "ertis-research/kafka-ml",
+    "url": "https://github.com/ertis-research/kafka-ml",
+    "estrellas": 206,
+    "descripcion": "Kafka-ML: connecting the data stream with ML/AI frameworks (now TensorFlow and PyTorch!)",
+    "motivo": "Ejemplo de inferencia ML consume API de aparcamiento",
+    "sector": "movilidad_transporte"
+   },
+   {
+    "portal": "barcelona",
+    "nombre": "stevage/OpenTrees",
+    "url": "https://github.com/stevage/OpenTrees",
+    "estrellas": 195,
+    "descripcion": "Front end for opentrees.org, a data visualisation of millions of publicly maintained trees around the world.",
+    "motivo": "Visualización global de árboles integra descarga del portal",
+    "sector": "clima_medio_ambiente"
+   },
+   {
+    "portal": "malaga",
+    "nombre": "uhrichsam4/gods-eye-view",
+    "url": "https://github.com/uhrichsam4/gods-eye-view",
+    "estrellas": 170,
+    "descripcion": "God's Eye View — live global camera map. Fork with world camera packs (~5,200 cameras, 20 countries), map labels, and production hosting.",
+    "motivo": "Catálogo de configuración consume geojson de cámaras vía GET",
+    "sector": "movilidad_transporte"
+   }
+  ],
+  "anios_publicaciones": {
+   "1970": 2,
+   "2005": 2,
+   "2006": 2,
+   "2007": 2,
+   "2008": 1,
+   "2009": 2,
+   "2010": 1,
+   "2011": 6,
+   "2012": 10,
+   "2013": 11,
+   "2014": 13,
+   "2015": 14,
+   "2016": 25,
+   "2017": 20,
+   "2018": 28,
+   "2019": 54,
+   "2020": 106,
+   "2021": 119,
+   "2022": 109,
+   "2023": 198,
+   "2024": 144,
+   "2025": 167,
+   "2026": 127
+  }
+ }
+}

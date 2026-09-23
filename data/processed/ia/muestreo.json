@@ -1,0 +1,86 @@
+[
+ {
+  "portal": "aemet",
+  "fuente": "github",
+  "total": 939,
+  "muestra": 250
+ },
+ {
+  "portal": "aragon",
+  "fuente": "github",
+  "total": 258,
+  "muestra": 250
+ },
+ {
+  "portal": "barcelona",
+  "fuente": "github",
+  "total": 462,
+  "muestra": 250
+ },
+ {
+  "portal": "cataluna",
+  "fuente": "github",
+  "total": 412,
+  "muestra": 250
+ },
+ {
+  "portal": "catastro",
+  "fuente": "github",
+  "total": 393,
+  "muestra": 250
+ },
+ {
+  "portal": "datosgob",
+  "fuente": "github",
+  "total": 1292,
+  "muestra": 250
+ },
+ {
+  "portal": "datosgob",
+  "fuente": "openalex",
+  "total": 281,
+  "muestra": 250
+ },
+ {
+  "portal": "euskadi",
+  "fuente": "github",
+  "total": 288,
+  "muestra": 250
+ },
+ {
+  "portal": "euskadi",
+  "fuente": "wikipedia",
+  "total": 13086,
+  "muestra": 250
+ },
+ {
+  "portal": "ign",
+  "fuente": "github",
+  "total": 1103,
+  "muestra": 250
+ },
+ {
+  "portal": "ign",
+  "fuente": "wikipedia",
+  "total": 2123,
+  "muestra": 250
+ },
+ {
+  "portal": "ine",
+  "fuente": "github",
+  "total": 1827,
+  "muestra": 250
+ },
+ {
+  "portal": "ine",
+  "fuente": "wikipedia",
+  "total": 25627,
+  "muestra": 250
+ },
+ {
+  "portal": "madrid",
+  "fuente": "github",
+  "total": 639,
+  "muestra": 250
+ }
+]

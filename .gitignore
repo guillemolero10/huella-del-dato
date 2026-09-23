@@ -1,0 +1,20 @@
+# Secretos y notas personales: nunca se publican
+.env
+.env.*
+CONTEXTO-CONCURSOS.md
+RETOMAR.md
+
+# Salida generada (se publica en Vercel) y estado de herramientas
+web/
+.vercel/
+.gstack/
+__pycache__/
+.DS_Store
+
+# Datos en bruto, caché y registros: se regeneran con el pipeline
+data/raw/
+data/cache/
+data/processed/reutilizaciones.jsonl
+data/processed/log_*.txt
+data/processed/ia/haiku.jsonl
+data/processed/ia/sonnet_v2.jsonl

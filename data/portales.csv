@@ -1,0 +1,36 @@
+id,nombre,ambito,territorio,url_portal,terminos_busqueda,github_propios,estado,notas
+datosgob,datos.gob.es (Catálogo Nacional),nacional,España,https://datos.gob.es,datos.gob.es,datosgobes,ok,
+ine,Instituto Nacional de Estadística,nacional,España,https://www.ine.es,www.ine.es|servicios.ine.es,,ok,"No se busca ""ine.es"" suelto: coincide con otros dominios (online.es…)"
+ign,Instituto Geográfico Nacional / CNIG,nacional,España,https://centrodedescargas.cnig.es,centrodedescargas.cnig.es|www.ign.es|www.idee.es,,ok,
+aemet,AEMET OpenData,nacional,España,https://opendata.aemet.es,opendata.aemet.es,,ok,
+catastro,Dirección General del Catastro,nacional,España,https://www.sedecatastro.gob.es,www.sedecatastro.gob.es|ovc.catastro.meh.es,,ok,ovc.catastro.meh.es son los servicios web muy usados en código
+boe,Boletín Oficial del Estado (datos abiertos y BORME),nacional,España,https://www.boe.es/datosabiertos/,boe.es/datosabiertos|boe.es/borme,,ok,"BORME = Boletín Oficial del Registro Mercantil, fuente clave del sector infomediario"
+placsp,Plataforma de Contratación del Sector Público,nacional,España,https://contrataciondelestado.es,contrataciondelestado.es|contrataciondelsectorpublico.gob.es,,ok,Premio ASEDIE 2016
+dgt,DGT (Punto de Acceso Nacional de tráfico),nacional,España,https://nap.dgt.es,nap.dgt.es|infocar.dgt.es,,ok,
+transparencia,Portal de la Transparencia,nacional,España,https://transparencia.gob.es,transparencia.gob.es,,ok,Premio ASEDIE 2015
+andalucia,Junta de Andalucía,autonomico,Andalucía,https://www.juntadeandalucia.es/datosabiertos/portal.html,juntadeandalucia.es/datosabiertos,,ok,Búsqueda por ruta: el dominio juntadeandalucia.es es demasiado general
+aragon,Aragón Open Data,autonomico,Aragón,https://opendata.aragon.es,opendata.aragon.es,,ok,Premio ASEDIE 2018 (EI2A)
+asturias,Principado de Asturias,autonomico,Asturias,https://descargas.asturias.es,descargas.asturias.es,,ok,No existe datos.asturias.es; dominio sacado del catálogo de datos.gob.es. SADEI (instituto de estadística) excluido por coherencia con el resto de comunidades
+baleares,Govern de les Illes Balears,autonomico,Illes Balears,https://catalegdades.caib.cat,catalegdades.caib.cat|intranet.caib.es/opendatacataleg,,ok,Redirige a intranet.caib.es/opendatacataleg
+canarias,Gobierno de Canarias,autonomico,Canarias,https://datos.canarias.es,datos.canarias.es,,ok,Premio ASEDIE 2021
+cantabria,Gobierno de Cantabria (ICANE),autonomico,Cantabria,https://www.icane.es,www.icane.es,,ok,No existe datos.cantabria.es; el ICANE es su único canal oficial de datos abiertos
+clm,Castilla-La Mancha,autonomico,Castilla-La Mancha,https://datosabiertos.castillalamancha.es,datosabiertos.castillalamancha.es,,ok,
+cyl,Junta de Castilla y León,autonomico,Castilla y León,https://datosabiertos.jcyl.es,datosabiertos.jcyl.es,,ok,Premio ASEDIE 2019; incluye analisis.datosabiertos.jcyl.es
+cataluna,Generalitat de Catalunya,autonomico,Cataluña,https://analisi.transparenciacatalunya.cat,analisi.transparenciacatalunya.cat|dadesobertes.gencat.cat,,ok,
+cvalenciana,Generalitat Valenciana,autonomico,Comunitat Valenciana,https://dadesobertes.gva.es,dadesobertes.gva.es,,ok,
+extremadura,Junta de Extremadura,autonomico,Extremadura,https://gobiernoabierto.juntaex.es,gobiernoabierto.juntaex.es,,revisar,No responde desde aquí (timeout); aparece en el catálogo de datos.gob.es
+galicia,Xunta de Galicia,autonomico,Galicia,https://abertos.xunta.gal,abertos.xunta.gal,,ok,
+cmadrid,Comunidad de Madrid,autonomico,Comunidad de Madrid,https://datos.comunidad.madrid,datos.comunidad.madrid,,ok,
+murcia,Región de Murcia,autonomico,Región de Murcia,https://datosabiertos.regiondemurcia.es,datosabiertos.regiondemurcia.es,,ok,
+navarra,Gobierno de Navarra,autonomico,Navarra,https://datosabiertos.navarra.es,datosabiertos.navarra.es,,ok,
+euskadi,Open Data Euskadi,autonomico,País Vasco,https://opendata.euskadi.eus,opendata.euskadi.eus,,ok,
+larioja,Gobierno de La Rioja,autonomico,La Rioja,https://web.larioja.org/dato-abierto,larioja.org/dato-abierto,,ok,Búsqueda por ruta
+madrid,Ayuntamiento de Madrid,local,Madrid,https://datos.madrid.es,datos.madrid.es,AyuntamientoMadrid,ok,Premio ASEDIE 2017
+barcelona,Ajuntament de Barcelona,local,Barcelona,https://opendata-ajuntament.barcelona.cat,opendata-ajuntament.barcelona.cat,,ok,
+valencia,Ajuntament de València,local,València,https://opendata.vlci.valencia.es,opendata.vlci.valencia.es|valencia.opendatasoft.com,,ok,valencia.opendatasoft.com es el dominio antiguo (ya no funciona) pero sigue citado
+zaragoza,Ayuntamiento de Zaragoza,local,Zaragoza,https://www.zaragoza.es/sede/portal/datos-abiertos/,zaragoza.es/sede/servicio|zaragoza.es/sede/portal/datos-abiertos,,ok,Premio ASEDIE 2014; /sede/servicio es su API
+bilbao,Ayuntamiento de Bilbao,local,Bilbao,https://www.bilbao.eus/opendata,bilbao.eus/opendata,,ok,
+malaga,Ayuntamiento de Málaga,local,Málaga,https://datosabiertos.malaga.eu,datosabiertos.malaga.eu,,ok,
+gijon,Ayuntamiento de Gijón,local,Gijón,https://datos.gijon.es,datos.gijon.es,,ok,
+caceres,Ayuntamiento de Cáceres,local,Cáceres,https://opendata.caceres.es,opendata.caceres.es,,ok,
+universidata,UniversiDATA (universidades públicas),nacional,España,https://www.universidata.es,universidata.es,,ok,Premio ASEDIE 2025

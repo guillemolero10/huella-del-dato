@@ -1,0 +1,672 @@
+{
+  "datosgob": {
+    "nombre": "datos.gob.es (Catálogo Nacional)",
+    "fuentes": {
+      "github": {
+        "uso": 867,
+        "mencion": 389,
+        "dudoso": 36
+      },
+      "openalex": {
+        "estudio": 123,
+        "uso": 339,
+        "dudoso": 12
+      },
+      "wikipedia": {
+        "uso": 33,
+        "mencion": 18
+      }
+    },
+    "excluidos": {
+      "repositorio del propio organismo": 6,
+      "copia": 118
+    }
+  },
+  "ine": {
+    "nombre": "Instituto Nacional de Estadística",
+    "fuentes": {
+      "github": {
+        "uso": 1527,
+        "mencion": 212,
+        "dudoso": 88
+      },
+      "openalex": {
+        "uso": 13936,
+        "dudoso": 547,
+        "estudio": 40
+      },
+      "wikipedia": {
+        "uso": 25132,
+        "mencion": 495
+      }
+    },
+    "excluidos": {
+      "copia": 1702
+    }
+  },
+  "ign": {
+    "nombre": "Instituto Geográfico Nacional / CNIG",
+    "fuentes": {
+      "github": {
+        "uso": 941,
+        "mencion": 119,
+        "dudoso": 43
+      },
+      "openalex": {
+        "uso": 1758,
+        "dudoso": 94,
+        "estudio": 17
+      },
+      "wikipedia": {
+        "uso": 2069,
+        "mencion": 54
+      }
+    },
+    "excluidos": {
+      "copia": 133
+    }
+  },
+  "aemet": {
+    "nombre": "AEMET OpenData",
+    "fuentes": {
+      "github": {
+        "uso": 764,
+        "mencion": 155,
+        "dudoso": 20
+      },
+      "openalex": {
+        "uso": 105,
+        "dudoso": 11,
+        "estudio": 1
+      },
+      "wikipedia": {
+        "uso": 133,
+        "mencion": 2
+      }
+    },
+    "excluidos": {
+      "copia": 87
+    }
+  },
+  "catastro": {
+    "nombre": "Dirección General del Catastro",
+    "fuentes": {
+      "github": {
+        "mencion": 34,
+        "uso": 342,
+        "dudoso": 17
+      },
+      "openalex": {
+        "uso": 181,
+        "dudoso": 8,
+        "estudio": 4
+      },
+      "wikipedia": {
+        "uso": 11,
+        "mencion": 34
+      }
+    },
+    "excluidos": {
+      "copia": 18
+    }
+  },
+  "boe": {
+    "nombre": "Boletín Oficial del Estado (datos abiertos y BORME)",
+    "fuentes": {
+      "github": {
+        "mencion": 15,
+        "uso": 218,
+        "dudoso": 3
+      },
+      "openalex": {},
+      "wikipedia": {
+        "uso": 4
+      }
+    },
+    "excluidos": {
+      "copia": 7
+    }
+  },
+  "placsp": {
+    "nombre": "Plataforma de Contratación del Sector Público",
+    "fuentes": {
+      "github": {
+        "dudoso": 7,
+        "uso": 110,
+        "mencion": 5
+      },
+      "openalex": {
+        "uso": 151,
+        "estudio": 14,
+        "dudoso": 4
+      },
+      "wikipedia": {
+        "uso": 75,
+        "mencion": 1
+      }
+    },
+    "excluidos": {
+      "copia": 1
+    }
+  },
+  "dgt": {
+    "nombre": "DGT (Punto de Acceso Nacional de tráfico)",
+    "fuentes": {
+      "github": {
+        "uso": 128,
+        "mencion": 5,
+        "dudoso": 3
+      },
+      "openalex": {
+        "uso": 11,
+        "estudio": 1,
+        "dudoso": 1
+      },
+      "wikipedia": {
+        "uso": 1
+      }
+    },
+    "excluidos": {
+      "copia": 12
+    }
+  },
+  "transparencia": {
+    "nombre": "Portal de la Transparencia",
+    "fuentes": {
+      "github": {
+        "uso": 60,
+        "mencion": 29,
+        "dudoso": 10
+      },
+      "openalex": {
+        "estudio": 54,
+        "uso": 217,
+        "dudoso": 3
+      },
+      "wikipedia": {
+        "uso": 228,
+        "mencion": 7
+      }
+    },
+    "excluidos": {
+      "copia": 5
+    }
+  },
+  "andalucia": {
+    "nombre": "Junta de Andalucía",
+    "fuentes": {
+      "github": {
+        "uso": 98,
+        "mencion": 18,
+        "dudoso": 5
+      },
+      "openalex": {
+        "uso": 1,
+        "estudio": 2
+      },
+      "wikipedia": {
+        "uso": 1
+      }
+    },
+    "excluidos": {
+      "copia": 3
+    }
+  },
+  "aragon": {
+    "nombre": "Aragón Open Data",
+    "fuentes": {
+      "github": {
+        "uso": 215,
+        "mencion": 32,
+        "dudoso": 11
+      },
+      "openalex": {
+        "estudio": 12,
+        "uso": 23,
+        "dudoso": 1
+      },
+      "wikipedia": {
+        "mencion": 1,
+        "uso": 2
+      }
+    },
+    "excluidos": {
+      "copia": 9
+    }
+  },
+  "asturias": {
+    "nombre": "Principado de Asturias",
+    "fuentes": {
+      "github": {
+        "uso": 6
+      },
+      "openalex": {
+        "uso": 2
+      },
+      "wikipedia": {}
+    },
+    "excluidos": {}
+  },
+  "baleares": {
+    "nombre": "Govern de les Illes Balears",
+    "fuentes": {
+      "github": {
+        "uso": 35,
+        "mencion": 7,
+        "dudoso": 1
+      },
+      "openalex": {
+        "uso": 3
+      },
+      "wikipedia": {}
+    },
+    "excluidos": {}
+  },
+  "canarias": {
+    "nombre": "Gobierno de Canarias",
+    "fuentes": {
+      "github": {
+        "uso": 48,
+        "dudoso": 2,
+        "mencion": 7
+      },
+      "openalex": {
+        "estudio": 3,
+        "uso": 13
+      },
+      "wikipedia": {
+        "uso": 3
+      }
+    },
+    "excluidos": {
+      "copia": 1
+    }
+  },
+  "cantabria": {
+    "nombre": "Gobierno de Cantabria (ICANE)",
+    "fuentes": {
+      "github": {
+        "mencion": 6,
+        "uso": 129,
+        "dudoso": 13
+      },
+      "openalex": {
+        "uso": 70,
+        "estudio": 1
+      },
+      "wikipedia": {
+        "uso": 31,
+        "mencion": 4
+      }
+    },
+    "excluidos": {
+      "copia": 10
+    }
+  },
+  "clm": {
+    "nombre": "Castilla-La Mancha",
+    "fuentes": {
+      "github": {
+        "uso": 23,
+        "mencion": 6
+      },
+      "openalex": {
+        "uso": 4,
+        "estudio": 2
+      },
+      "wikipedia": {
+        "uso": 4
+      }
+    },
+    "excluidos": {
+      "copia": 1
+    }
+  },
+  "cyl": {
+    "nombre": "Junta de Castilla y León",
+    "fuentes": {
+      "github": {
+        "uso": 168,
+        "dudoso": 4,
+        "mencion": 24
+      },
+      "openalex": {
+        "uso": 29,
+        "estudio": 6,
+        "dudoso": 5
+      },
+      "wikipedia": {
+        "mencion": 2,
+        "uso": 21
+      }
+    },
+    "excluidos": {
+      "copia": 2
+    }
+  },
+  "cataluna": {
+    "nombre": "Generalitat de Catalunya",
+    "fuentes": {
+      "github": {
+        "uso": 364,
+        "mencion": 36,
+        "dudoso": 12
+      },
+      "openalex": {
+        "uso": 79,
+        "estudio": 12,
+        "dudoso": 9
+      },
+      "wikipedia": {
+        "uso": 70,
+        "mencion": 3
+      }
+    },
+    "excluidos": {
+      "copia": 11
+    }
+  },
+  "cvalenciana": {
+    "nombre": "Generalitat Valenciana",
+    "fuentes": {
+      "github": {
+        "uso": 60,
+        "mencion": 5
+      },
+      "openalex": {
+        "estudio": 3,
+        "uso": 20
+      },
+      "wikipedia": {
+        "uso": 1
+      }
+    },
+    "excluidos": {}
+  },
+  "extremadura": {
+    "nombre": "Junta de Extremadura",
+    "fuentes": {
+      "github": {
+        "mencion": 3,
+        "uso": 2,
+        "dudoso": 1
+      },
+      "openalex": {
+        "estudio": 5,
+        "uso": 1
+      },
+      "wikipedia": {}
+    },
+    "excluidos": {
+      "copia": 2
+    }
+  },
+  "galicia": {
+    "nombre": "Xunta de Galicia",
+    "fuentes": {
+      "github": {
+        "uso": 29,
+        "dudoso": 1,
+        "mencion": 13
+      },
+      "openalex": {
+        "estudio": 6,
+        "uso": 8
+      },
+      "wikipedia": {
+        "uso": 3
+      }
+    },
+    "excluidos": {
+      "copia": 2
+    }
+  },
+  "cmadrid": {
+    "nombre": "Comunidad de Madrid",
+    "fuentes": {
+      "github": {
+        "mencion": 23,
+        "uso": 106,
+        "dudoso": 1
+      },
+      "openalex": {
+        "uso": 42,
+        "dudoso": 2,
+        "estudio": 1
+      },
+      "wikipedia": {
+        "uso": 1
+      }
+    },
+    "excluidos": {
+      "copia": 7
+    }
+  },
+  "murcia": {
+    "nombre": "Región de Murcia",
+    "fuentes": {
+      "github": {
+        "mencion": 7,
+        "uso": 14
+      },
+      "openalex": {
+        "uso": 5,
+        "estudio": 3
+      },
+      "wikipedia": {}
+    },
+    "excluidos": {
+      "copia": 2
+    }
+  },
+  "navarra": {
+    "nombre": "Gobierno de Navarra",
+    "fuentes": {
+      "github": {
+        "mencion": 4,
+        "uso": 21
+      },
+      "openalex": {
+        "uso": 2
+      },
+      "wikipedia": {
+        "uso": 2
+      }
+    },
+    "excluidos": {}
+  },
+  "euskadi": {
+    "nombre": "Open Data Euskadi",
+    "fuentes": {
+      "github": {
+        "mencion": 59,
+        "uso": 223,
+        "dudoso": 6
+      },
+      "openalex": {
+        "dudoso": 3,
+        "uso": 46,
+        "estudio": 8
+      },
+      "wikipedia": {
+        "uso": 13084,
+        "mencion": 2
+      }
+    },
+    "excluidos": {
+      "copia": 53
+    }
+  },
+  "larioja": {
+    "nombre": "Gobierno de La Rioja",
+    "fuentes": {
+      "github": {
+        "uso": 7,
+        "mencion": 2
+      },
+      "openalex": {},
+      "wikipedia": {}
+    },
+    "excluidos": {}
+  },
+  "madrid": {
+    "nombre": "Ayuntamiento de Madrid",
+    "fuentes": {
+      "github": {
+        "uso": 528,
+        "mencion": 98,
+        "dudoso": 13
+      },
+      "openalex": {
+        "dudoso": 16,
+        "estudio": 23,
+        "uso": 211
+      },
+      "wikipedia": {
+        "uso": 127,
+        "mencion": 1
+      }
+    },
+    "excluidos": {
+      "repositorio del propio organismo": 2,
+      "copia": 32
+    }
+  },
+  "barcelona": {
+    "nombre": "Ajuntament de Barcelona",
+    "fuentes": {
+      "github": {
+        "mencion": 73,
+        "uso": 384,
+        "dudoso": 5
+      },
+      "openalex": {
+        "dudoso": 9,
+        "uso": 125,
+        "estudio": 11
+      },
+      "wikipedia": {
+        "uso": 12
+      }
+    },
+    "excluidos": {
+      "copia": 14
+    }
+  },
+  "valencia": {
+    "nombre": "Ajuntament de València",
+    "fuentes": {
+      "github": {
+        "uso": 192,
+        "mencion": 5
+      },
+      "openalex": {
+        "uso": 19,
+        "estudio": 1,
+        "dudoso": 1
+      },
+      "wikipedia": {
+        "uso": 3
+      }
+    },
+    "excluidos": {
+      "copia": 4
+    }
+  },
+  "zaragoza": {
+    "nombre": "Ayuntamiento de Zaragoza",
+    "fuentes": {
+      "github": {
+        "uso": 100,
+        "mencion": 9
+      },
+      "openalex": {
+        "estudio": 1,
+        "uso": 1
+      },
+      "wikipedia": {}
+    },
+    "excluidos": {
+      "copia": 1
+    }
+  },
+  "bilbao": {
+    "nombre": "Ayuntamiento de Bilbao",
+    "fuentes": {
+      "github": {
+        "uso": 11,
+        "mencion": 9
+      },
+      "openalex": {},
+      "wikipedia": {}
+    },
+    "excluidos": {}
+  },
+  "malaga": {
+    "nombre": "Ayuntamiento de Málaga",
+    "fuentes": {
+      "github": {
+        "uso": 94,
+        "mencion": 11,
+        "dudoso": 2
+      },
+      "openalex": {
+        "uso": 17,
+        "dudoso": 1,
+        "estudio": 1
+      },
+      "wikipedia": {
+        "uso": 14
+      }
+    },
+    "excluidos": {
+      "copia": 1
+    }
+  },
+  "gijon": {
+    "nombre": "Ayuntamiento de Gijón",
+    "fuentes": {
+      "github": {
+        "uso": 17,
+        "mencion": 7
+      },
+      "openalex": {
+        "estudio": 6
+      },
+      "wikipedia": {}
+    },
+    "excluidos": {}
+  },
+  "caceres": {
+    "nombre": "Ayuntamiento de Cáceres",
+    "fuentes": {
+      "github": {
+        "uso": 148,
+        "mencion": 12,
+        "dudoso": 6
+      },
+      "openalex": {
+        "estudio": 1,
+        "uso": 3
+      },
+      "wikipedia": {}
+    },
+    "excluidos": {
+      "copia": 8
+    }
+  },
+  "universidata": {
+    "nombre": "UniversiDATA (universidades públicas)",
+    "fuentes": {
+      "github": {
+        "uso": 12,
+        "mencion": 2
+      },
+      "openalex": {},
+      "wikipedia": {}
+    },
+    "excluidos": {
+      "copia": 1
+    }
+  }
+}
