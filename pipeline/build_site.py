@@ -488,7 +488,8 @@ def demo_ia(items, ia):
   <li><b>Con reglas fijas</b><span>Solo puede elegir entre cinco veredictos y debe justificar cada uno en una frase.</span></li>
   <li><b>Antes de publicar</b><span>La IA trabajó una vez sobre todos los casos. La web no la llama: por eso las cifras
   son fijas, cada decisión se puede revisar y mantenerla cuesta 0 €.</span></li>
-  <li><b>Fiabilidad</b><span>Acertó en el 88% de los casos más difíciles, comparada con revisión manual.</span></li>
+  <li><b>Auditable</b><span>Cada una de sus decisiones se publica con su motivo y el enlace al original, en el
+  <a href="buscar.html">buscador</a> y en los <a href="datos.html">datos abiertos</a>.</span></li>
 </ul>
 <p><a class="enlace-flecha" href="metodologia.html#instrucciones">Leer las instrucciones completas que sigue la IA →</a></p>"""
 
@@ -918,8 +919,11 @@ las decisiones que hay detrás de cada cifra, incluidas sus limitaciones.</p></s
   <b>mención</b> (lo nombra sin usarlo, como en las listas de recursos) y <b>ruido</b> (coincidencia accidental).
   La clasificación la hace un modelo de lenguaje (Claude Sonnet) leyendo el fragmento real donde aparece la dirección,
   y deja escrito el motivo de cada decisión.</p>
-  <p>La fiabilidad se midió en los casos más difíciles, aquellos en los que dos modelos distintos discrepaban: el
-  modelo elegido acertó en el <b>88%</b> comparado con revisión manual.</p>
+  <p>Para elegir el modelo se compararon dos (Claude Haiku y Claude Sonnet) sobre los mismos 200 casos: coincidieron
+  en el 80%. Los desacuerdos se revisaron uno a uno para ajustar las instrucciones, y se eligió Sonnet porque resolvía
+  mejor los casos difíciles. Esa revisión la hizo también un asistente de IA, así que <b>no es una medida independiente
+  de acierto</b>. La validación con revisión humana a ciegas de una muestra aleatoria es la principal tarea pendiente.
+  Mientras tanto, cada decisión se publica con su motivo y el enlace al original para que cualquiera pueda comprobarla.</p>
   <details class="instrucciones" id="instrucciones" open>
     <summary>Las instrucciones exactas que recibe la IA</summary>
     <p class="nota">Se copian tal cual del código. Después de estas instrucciones, la IA recibe los casos en lotes de 40,
@@ -947,6 +951,8 @@ las decisiones que hay detrás de cada cifra, incluidas sus limitaciones.</p></s
   de fichero, con un límite de 4.000 ficheros por término.</li>
   <li>Un portal con más rastros no es necesariamente mejor: influyen su antigüedad, su tamaño y el tipo de datos
   que publica.</li>
+  <li>El acierto de la IA no se ha validado todavía con una revisión humana independiente. Los márgenes de error
+  publicados recogen la incertidumbre del muestreo, no los posibles errores de clasificación.</li>
   </ul>
 </section>
 <section class="seccion texto">
