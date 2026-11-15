@@ -25,3 +25,6 @@ textos-formulario.md
 # Revisión manual descartada (solo local)
 pipeline/revision.py
 data/processed/revision/
+
+# Historial de R (local)
+.Rhistory

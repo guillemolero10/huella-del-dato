@@ -376,6 +376,7 @@ def pagina(titulo, descripcion, cuerpo, raiz=".", banda="", scripts="", ruta="")
 <link rel="preload" href="{raiz}/fuentes/bricolage.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{raiz}/estilo.css">
 <link rel="icon" href="{FAVICON}">
+<script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 <a class="saltar" href="#principal">Saltar al contenido</a>
